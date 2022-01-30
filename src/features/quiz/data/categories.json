@@ -1,0 +1,98 @@
+[
+  {
+    "title": "General Knowledge",
+    "code": 9
+  },
+  {
+    "title": "Books",
+    "code": 10
+  },
+  {
+    "title": "Film",
+    "code": 11
+  },
+  {
+    "title": "Music",
+    "code": 12
+  },
+  {
+    "title": "Musicals & Theatres",
+    "code": 13
+  },
+  {
+    "title": "Television",
+    "code": 14
+  },
+  {
+    "title": "Video Games",
+    "code": 15
+  },
+  {
+    "title": "Board Games",
+    "code": 16
+  },
+  {
+    "title": "Science & Nature",
+    "code": 17
+  },
+  {
+    "title": "Computers",
+    "code": 18
+  },
+  {
+    "title": "Mathematics",
+    "code": 19
+  },
+  {
+    "title": "Mythology",
+    "code": 20
+  },
+  {
+    "title": "Sports",
+    "code": 21
+  },
+  {
+    "title": "Geography",
+    "code": 22
+  },
+  {
+    "title": "History",
+    "code": 23
+  },
+  {
+    "title": "Politics",
+    "code": 24
+  },
+  {
+    "title": "Art",
+    "code": 25
+  },
+  {
+    "title": "Celebrities",
+    "code": 26
+  },
+  {
+    "title": "Animals",
+    "code": 27
+  },
+  {
+    "title": "Vehicles",
+    "code": 28
+  },
+  {
+    "title": "Comics",
+    "code": 29
+  },
+  {
+    "title": "Gadgets",
+    "code": 30
+  },
+  {
+    "title": "Anime & Manga",
+    "code": 31
+  },
+  {
+    "title": "Cartoon & Animations",
+    "code": 32
+  }
+]
