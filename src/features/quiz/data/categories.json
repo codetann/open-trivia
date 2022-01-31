@@ -1,98 +1,122 @@
 [
   {
     "title": "General Knowledge",
+    "icon": "FaBrain",
     "code": 9
   },
   {
     "title": "Books",
+    "icon": "FaBook",
     "code": 10
   },
   {
     "title": "Film",
+    "icon": "FaFilm",
     "code": 11
   },
   {
     "title": "Music",
+    "icon": "FaMusic",
     "code": 12
   },
   {
     "title": "Musicals & Theatres",
+    "icon": "FaTheaterMasks",
     "code": 13
   },
   {
     "title": "Television",
+    "icon": "FaTv",
     "code": 14
   },
   {
     "title": "Video Games",
+    "icon": "FaGamepad",
     "code": 15
   },
   {
     "title": "Board Games",
+    "icon": "FaDice",
     "code": 16
   },
   {
     "title": "Science & Nature",
+    "icon": "FaMicroscope",
     "code": 17
   },
   {
     "title": "Computers",
+    "icon": "FaLaptopCode",
     "code": 18
   },
   {
     "title": "Mathematics",
+    "icon": "FaCalculator",
     "code": 19
   },
   {
     "title": "Mythology",
+    "icon": "FaPuzzlePiece",
     "code": 20
   },
   {
     "title": "Sports",
+    "icon": "FaFutbol",
     "code": 21
   },
   {
     "title": "Geography",
+    "icon": "FaMapMarkerAlt",
     "code": 22
   },
   {
     "title": "History",
+    "icon": "FaBone",
     "code": 23
   },
   {
     "title": "Politics",
+    "icon": "FaGavel",
     "code": 24
   },
   {
     "title": "Art",
+    "icon": "FaArtstation",
     "code": 25
   },
   {
     "title": "Celebrities",
+    "icon": "FaUserAlt",
     "code": 26
   },
   {
     "title": "Animals",
+    "icon": "FaPaw",
     "code": 27
   },
   {
     "title": "Vehicles",
+    "icon": "FaCarAlt",
     "code": 28
   },
   {
     "title": "Comics",
+    "icon": "FaPenFancy",
     "code": 29
   },
   {
     "title": "Gadgets",
+    "icon": "FaLaptopCode",
     "code": 30
   },
   {
     "title": "Anime & Manga",
+    "icon": "FaDragon",
     "code": 31
   },
   {
     "title": "Cartoon & Animations",
+    "icon": "FaGhost",
     "code": 32
   }
 ]
