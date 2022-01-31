@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { VStack, Text } from "@chakra-ui/react";
+import { VStack, Text, useStyleConfig } from "@chakra-ui/react";
 import * as icons from "react-icons/fa";
 /**
  * @component
@@ -24,6 +24,7 @@ interface Props {
 
 export function Category({ title, onClick, code, icon: Icon }: Props) {
   const [isHovered, setHovered] = useState(false);
+  const styles = useStyleConfig("Card");
 
   return (
     <motion.div
@@ -34,7 +35,7 @@ export function Category({ title, onClick, code, icon: Icon }: Props) {
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
         borderRadius="md"
-        bg="whiteAlpha.100"
+        sx={styles}
         w="10rem"
         h="10rem"
       >
