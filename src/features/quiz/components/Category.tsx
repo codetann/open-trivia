@@ -1,24 +1,28 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { VStack, Text } from "@chakra-ui/react";
+import * as icons from "react-icons/fa";
 /**
  * @component
  *
  * @description
- *   Component used to display a quiz category.
- *   When clicked, it will navigate to the quiz setup page.
+ *  Component used to display a quiz category.
+ *  When clicked, it will navigate to the quiz setup page.
  *
- * TODO: decide how info is passed to the setup page. (store or url)
+ * @return {JSX.Element}
+ *
+ * TODO: decide how info is passed to the setup page. (store or url).
+ * TODO: implement unused props.
  */
 
 interface Props {
   onClick: () => void;
   title: string;
   code: number;
-  icon?: JSX.Element;
+  icon: any;
 }
 
-export function Category({ title, onClick, code, icon }: Props) {
+export function Category({ title, onClick, code, icon: Icon }: Props) {
   const [isHovered, setHovered] = useState(false);
 
   return (
@@ -35,6 +39,7 @@ export function Category({ title, onClick, code, icon }: Props) {
         h="10rem"
       >
         <Text>{title}</Text>
+        <Icon />
       </VStack>
     </motion.div>
   );
